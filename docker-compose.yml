@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  tree-api:
+    build:
+      context: .
+      dockerfile: TreeNodeWebApi/Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - tree-data:/app/data  # используем именованный volume
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:8080
+      - DOTNET_RUNNING_IN_CONTAINER=true
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/myTestDatabase.db
+    command: ["dotnet", "TreeNodeWebApi.dll", "--urls", "http://0.0.0.0:8080"]
+
+volumes:
+  tree-data:

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeWebApi", "TreeNodeWebApi\TreeNodeWebApi.csproj", "{6A0A8D36-2696-4712-95D1-46E6D5648BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{76632601-EA7E-4871-AD20-F14E53B9C3A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore.txt = .gitignore.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A0A8D36-2696-4712-95D1-46E6D5648BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0A8D36-2696-4712-95D1-46E6D5648BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0A8D36-2696-4712-95D1-46E6D5648BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0A8D36-2696-4712-95D1-46E6D5648BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76632601-EA7E-4871-AD20-F14E53B9C3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76632601-EA7E-4871-AD20-F14E53B9C3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76632601-EA7E-4871-AD20-F14E53B9C3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76632601-EA7E-4871-AD20-F14E53B9C3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A6C02D-D468-4062-AAD9-075CC4D576D4}
+	EndGlobalSection
+EndGlobal
